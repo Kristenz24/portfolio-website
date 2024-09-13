@@ -225,8 +225,7 @@ body:has(#darkmode:checked){
 .landing-btn{
     display : flex;
     gap     : 1rem;
-    justify-content: center;
-    align-items: center;
+    
 }
 .landing-btn > a:hover{
     transform : scale(.9);
@@ -490,6 +489,10 @@ body:has(#darkmode:checked){
     }
     .cursor{
         display : none;
+    }
+    .landing-btn{
+        justify-content: center;
+        align-items: center;
     }
 }
 
