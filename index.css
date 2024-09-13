@@ -316,7 +316,7 @@ body:has(#darkmode:checked){
     background-color : var(--clr-light);
     padding          : 1rem;
     border           : 1px solid var(--clr-main);
-    width            : 30%;
+    width            : 50%;
 }
 .card-body > p{
     color : var(--clr-main);
