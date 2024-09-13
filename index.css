@@ -225,6 +225,8 @@ body:has(#darkmode:checked){
 .landing-btn{
     display : flex;
     gap     : 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .landing-btn > a:hover{
     transform : scale(.9);
@@ -239,14 +241,6 @@ body:has(#darkmode:checked){
     padding          : 1rem 5%;
     border-radius    : .5rem;
     color            : var(--clr-light);
-    font-weight      : bold;
-}
-.landing-btn > a:nth-child(2){
-    padding          : 1rem 5%;
-    background-color : transparent;
-    color            : var(--clr-dark);
-    border           : 1px solid var(--clr-dark);
-    border-radius    : .5rem;
     font-weight      : bold;
 }
 
