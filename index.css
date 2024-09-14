@@ -461,15 +461,15 @@ body:has(#darkmode:checked){
 
 /* RESPONSIVE */
 @media (max-width:1250px){
-    .cards{
-        flex-direction : column;
-    }
     .card{
         width : 350px;
     }
 }
 
 @media (max-width:950px){
+    .cards{
+        flex-direction : column;
+    }
     .landing-content > h1{
         font-size : 5rem;
     }
