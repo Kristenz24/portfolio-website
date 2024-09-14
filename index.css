@@ -465,7 +465,6 @@ body:has(#darkmode:checked){
         width : 350px;
     }
 }
-
 @media (max-width:950px){
     .cards{
         flex-direction : column;
@@ -475,6 +474,7 @@ body:has(#darkmode:checked){
     }
     .landing{
         flex-direction : column;
+        gap: 1rem;
     }
     .landing-content{
         display        : flex;
