@@ -494,6 +494,9 @@ body:has(#darkmode:checked){
         justify-content: center;
         align-items: center;
     }
+    .landing-btn > a {
+        width: 100%;
+    }
 }
 
 @media (max-width:400px){
